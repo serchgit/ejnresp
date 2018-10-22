@@ -1,0 +1,280 @@
+nav{
+  background-image: url("../images/fondo-otono.jpg");
+  
+}
+.azul{
+	color:#00324B;
+}
+.rojo{
+	color:#9F030F;
+}
+.tituloEsfuerzo{
+	font-family: 'Indie Flower', cursive;
+	font-size: 3rem;
+	color:#002C44;
+	position: relative;
+	top:3.5rem;
+	text-shadow: 3px 3px 5px #999;
+    font-weight: 600;
+}
+.cont-tit{
+	
+}
+.titulo{
+	font-family: 'Indie Flower', cursive;
+	color:#002C44;
+	text-shadow: 3px 3px 5px #999;
+    font-weight: 600;
+}
+.logo img{
+  position: relative;
+  bottom: 1.5rem;
+}
+.articulo{
+  border:1px solid #062b48;
+  height: 29rem;
+  overflow-y: auto;
+}
+.articulo h4{
+  background: #0d3155;
+}
+.card-block h4{
+  background: #0b3452;
+}
+.centrar{
+	margin:0 auto;
+}
+.tabla{
+	font-size: 12px;
+}
+.table{
+	width: 100% !important;
+}
+.banner-1{
+	text-align: right;
+}
+.banner-1a{
+	text-align: left;
+}
+.banner-1 img{
+	border-radius: 0 8px 8px 0;
+}
+.banner-1a img{
+	border-radius: 8px 0 0 8px;
+}
+.titulo-medio{
+	font-size: 2.5rem;
+}
+.card-1{
+	background: transparent;
+	background-image: url("../images/textura.png");
+	background-repeat: no-repeat;
+	padding: .5rem;
+	/*height: 200px;*/
+}
+.card-1S{
+	background: transparent;
+	background-image: url("../images/sion.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+    background-position-y: -16px;
+	padding: .5rem;
+	/*height: 200px;*/
+}
+.card-block-a{
+	color:#eee;
+	background:rgba(255,255,255,.2);
+	text-shadow: 1px 2px #000;
+	padding: .5rem;
+}
+.art-2{
+	border:1px solid #ccc;
+	text-align: justify;
+}
+footer{
+	background-image: url("../images/fondo-otono.jpg");
+}
+.icons-footer{
+	background:rgba(255,255,255,.1);
+	padding: 5px;
+	text-align: center;
+}
+.icon-info{
+	background: #002133;
+    padding: 9px 19px;
+    border-radius: 50%;
+}
+.info-campa{
+    font-family: 'Mali', cursive;
+    font-size: 1.2rem;
+}
+.info-campa  i{
+    font-size: 1rem;
+	position: relative;
+    left: -25px;
+    background: #002133;
+    padding-right: 26px;
+    border-radius: 0 4px 4px 0;
+    color:#fff;
+}
+.img-camp{
+	border-bottom: 2px solid green;
+	height: 7rem;
+}
+.img-camp img{
+	width: 100%;
+    position: relative;
+    z-index: -1;
+    height: 200px;
+    bottom: 178px;
+    opacity: .2;
+}
+.lista-cosas{
+ font-family: 'Indie Flower', cursive;
+ font-size: 1.2rem;
+ color: green;
+}
+.lista-sugerencia{
+ font-family: 'Indie Flower', cursive;
+ font-size: 1.2rem;
+ color:#0b3452;
+}
+.manos{
+	position: relative;
+}
+.manos .mano-izq{
+    position: absolute;
+    z-index: 2;
+    transform: rotate(132deg);
+    top: -80px;
+    left: -40px;
+	width: 120px;
+}
+.manos .mano-der{
+    position: absolute;
+    z-index: 2;
+	right: -40px;
+    top: -80px;
+    transform: rotateY(180deg) rotate(135deg);
+	width: 120px;
+}
+.campa p{
+	font-family: 'Mali', cursive;
+}
+ul li{
+	list-style: none;
+}
+.cuerpo-docu{
+	height: 40vh;
+}
+.documento{
+	height: 35vh;
+}
+@media (max-width: 991px){
+	.pad{
+		padding-top: 5rem;
+	}
+	.titulo-medio{
+		font-size: 22px;
+	}
+	.banner img{
+		max-width: 10rem;
+	}
+	.cont-tit h1{
+		font-size: 2.5rem;
+	}
+	.img-camp{
+	height: 6rem;
+	}
+	#map{
+		width: 500px;
+		height: 200px; 
+	}
+}
+@media (max-width: 600px){
+	.manos .mano-izq{
+		width: 50px;
+		top: -30px;
+    	left: -2px;
+	}
+	.manos .mano-der{
+		width: 50px;
+		top: -30px;
+    	right: -2px;
+	}
+}
+@media (max-width: 500px){
+	.banner{
+		flex-direction: column-reverse;
+		border: 0;
+	}
+	.banner img{
+		max-width: 100%;
+		border-radius: 10px;
+	}
+	.articulo h4{
+		font-size: 18px;
+	}
+	.logo img{
+		left:1rem;
+		max-width: 80%;
+	}
+	.titulo-logo{
+		font-size: 14px;
+	}
+	.banner-1{
+		flex-direction: column-reverse;
+		text-align: justify;
+	}
+	.banner-1a{
+		flex-direction: column;
+		text-align: justify;
+	}
+	.banner-1 p, .banner-1a p, .banner p{
+		font-size: 12px;
+	}
+	.banner-1 img{
+		border-radius:0;
+	}
+	.banner-1a img{
+		border-radius:0;
+	}
+	.img-camp{
+		height: 5rem;
+	}
+	.cont-tit h1{
+		font-size: 1.7rem;
+	}
+	.lista-cosas,.lista-sugerencia{
+		font-size: .9rem;
+	}
+	.llevar{
+		font-size: 2rem;
+	}
+	.lista-cosas ul li i,.lista-sugerencia ul li i{
+		margin-right: 5px !important;
+		margin-left: 5px !important;
+	}
+	.anuncios p{
+		text-align: center;
+	}
+	.anuncios img{
+		border-radius: 6px 6px 0 0;
+	}
+	.info-campa{
+		font-size: 1rem;
+	}
+	#map{
+		width: 250px;
+		height: 250px; 
+	}
+	.informacion-conve{
+		font-size: 13px;
+	}
+	section h1{
+		font-size: 2rem;
+	}
+	.alert-info{
+		font-size: 13px;
+	}
+}
